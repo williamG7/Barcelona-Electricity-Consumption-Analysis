@@ -1,16 +1,16 @@
-# Barcelona Electricity Consumption Analysis 🌍⚡
+# Barcelona Electricity Consumption Analysis 
 
-## 📋 Descripción
+## Descripción
 
 Proyecto de análisis de datos enfocado en la **sostenibilidad energética en Barcelona**, utilizando técnicas avanzadas de **Machine Learning** y **análisis exploratorio de datos (EDA)**. Este repositorio examina patrones de consumo eléctrico a lo largo de 7 años (2019-2025) desagregados por código postal, sector económico y franja horaria.
 
 El análisis se enmarca en los **Objetivos de Desarrollo Sostenible (ODS) 2030** de la ONU, con el objetivo de **generar propuestas de mejora** en eficiencia energética y sostenibilidad ambiental para la administración pública de Barcelona.
 
-📊 **Fuente de datos:** [Open Data Barcelona - Consum d'Electricitat](https://opendata-ajuntament.barcelona.cat/data/ca/dataset/consum-electricitat-bcn)
+ **Fuente de datos:** [Open Data Barcelona - Consum d'Electricitat](https://opendata-ajuntament.barcelona.cat/data/ca/dataset/consum-electricitat-bcn)
 
 ---
 
-## 🎯 Objetivos del Proyecto
+##  Objetivos del Proyecto
 
 ### Objetivo Principal
 Realizar un **retorno a la sociedad** mediante el análisis riguroso de datos de consumo eléctrico, identificando patrones y oportunidades de mejora en la gestión energética sostenible.
@@ -27,7 +27,7 @@ Realizar un **retorno a la sociedad** mediante el análisis riguroso de datos de
 
 ---
 
-## 📊 Hipótesis a Demostrar
+##  Hipótesis a Demostrar
 
 1. ✅ El consumo eléctrico **varía significativamente según el código postal**
 2. ✅ Existen **diferencias claras de consumo según el sector económico**
@@ -37,7 +37,7 @@ Realizar un **retorno a la sociedad** mediante el análisis riguroso de datos de
 
 ---
 
-## 🛠️ Tecnologías y Dependencias
+##  Tecnologías y Dependencias
 
 ### Librerías Core
 
@@ -82,7 +82,7 @@ from google.colab import files  # Upload/download de archivos
 
 ---
 
-## 📚 Estructura del Repositorio
+##  Estructura del Repositorio
 
 ```
 Barcelona-Electricity-Consumption-Analysis/
@@ -110,14 +110,14 @@ Barcelona-Electricity-Consumption-Analysis/
 
 ---
 
-## ⚙️ Instalación y Configuración
+## Instalación y Configuración
 
 ### Requisitos Previos
 - **Python 3.8+**
 - **pip** o **conda**
 - Conocimientos de estadística y ML (recomendado)
 
-### 🚀 Opción 1: Google Colab (Recomendado ⭐)
+### Opción 1: Google Colab (Recomendado ⭐)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/williamG7/Barcelona-Electricity-Consumption-Analysis/blob/main/Barcelona_Electricity_Consumption_Analysis_GuzmanWilliam.ipynb)
 
@@ -133,7 +133,7 @@ Barcelona-Electricity-Consumption-Analysis/
 3. Seleccionar GPU o TPU (opcional)
 4. Ejecutar las celdas en orden
 
-### 💻 Opción 2: Instalación Local
+### Opción 2: Instalación Local
 
 #### Paso 1: Clonar el Repositorio
 ```bash
@@ -164,7 +164,7 @@ jupyter notebook Barcelona_Electricity_Consumption_Analysis_GuzmanWilliam.ipynb
 
 ---
 
-## 📊 Datos del Proyecto
+## Datos del Proyecto
 
 ### Origen de Datos
 - **Fuente:** Barcelona Open Data (AJUNTAMENT DE BARCELONA)
@@ -197,7 +197,7 @@ Consumo Promedio:       ~25,829 MWh/registro
 
 ---
 
-## 🚀 Contenido y Análisis del Notebook
+## Contenido y Análisis del Notebook
 
 ### 1️⃣ Carga y Preparación de Datos
 ```python
@@ -208,10 +208,10 @@ Consumo Promedio:       ~25,829 MWh/registro
 ```
 
 ### 2️⃣ Exploración Exploratoria (EDA)
-- 📈 Estadísticas descriptivas
-- 🔍 Análisis de distribuciones
-- 📊 Correlaciones variables
-- 🗺️ Patrones geoespaciales
+-  Estadísticas descriptivas
+-  Análisis de distribuciones
+-  Correlaciones variables
+-  Patrones geoespaciales
 
 ### 3️⃣ Análisis por Dimensiones
 - **Por Año:** Tendencias temporales de consumo
@@ -249,19 +249,19 @@ Consumo Promedio:       ~25,829 MWh/registro
 ```
 
 ### 8️⃣ Visualizaciones Profesionales
-- 📊 Gráficos de barras y líneas
-- 🔥 Mapas de calor (heatmaps)
-- 🎨 Scatter plots con regresiones
-- 🗺️ Distribuciones geográficas
+-  Gráficos de barras y líneas
+-  Mapas de calor (heatmaps)
+-  Scatter plots con regresiones
+-  Distribuciones geográficas
 
 ### 9️⃣ Propuestas de Mejora
-- 💡 Recomendaciones basadas en datos
-- 🌱 Medidas de eficiencia energética
-- 📋 Plan de acción para sostenibilidad
+-  Recomendaciones basadas en datos
+-  Medidas de eficiencia energética
+-  Plan de acción para sostenibilidad
 
 ---
 
-## 📈 Resultados Clave
+##  Resultados Clave
 
 ### Consumo por Año (2019-2025)
 
@@ -302,7 +302,7 @@ Consumo Promedio:       ~25,829 MWh/registro
 
 ---
 
-## 🔍 Metodología ML Utilizada
+##  Metodología ML Utilizada
 
 ### 1. Regresión (Predicción)
 ```python
@@ -350,44 +350,44 @@ etiquetas = kmeans.fit_predict(X_normalizado)
 
 ---
 
-## 💡 Propuestas de Mejora Sostenible
+##  Propuestas de Mejora Sostenible
 
 Basadas en el análisis de datos:
 
-### 🌱 Para Sector Residencial
+###  Para Sector Residencial
 - Campañas de concienciación sobre consumo eficiente
 - Incentivos para instalación de paneles solares
 - Aislamiento térmico en viviendas antiguas
 
-### 🏭 Para Sector Industrial
+###  Para Sector Industrial
 - Auditorías energéticas obligatorias
 - Certificación de eficiencia energética
 - Subvenciones para maquinaria de bajo consumo
 
-### 🏪 Para Sector de Servicios
+###  Para Sector de Servicios
 - Sistemas de iluminación LED inteligentes
 - Automatización de HVAC
 - Monitoreo en tiempo real de consumo
 
-### 📊 Medidas Generales
+###  Medidas Generales
 - Tarificación variable por hora (peak pricing)
 - Red inteligente (Smart Grid) en Barcelona
 - Centro de control energético municipal
 
 ---
 
-## 🔐 Consideraciones Éticas
+##  Consideraciones Éticas
 
 Este proyecto respeta los siguientes principios:
 
 ### ✅ Valores del Proyecto
-- 🌍 **Sostenibilidad ambiental** como prioritario
-- 👥 **Transparencia pública** en datos abiertos
-- 🔬 **Rigor científico** en análisis
-- 📚 **Accesibilidad educativa** del conocimiento
-- 🏢 **Responsabilidad social corporativa**
+-  **Sostenibilidad ambiental** como prioritario
+-  **Transparencia pública** en datos abiertos
+-  **Rigor científico** en análisis
+-  **Accesibilidad educativa** del conocimiento
+-  **Responsabilidad social corporativa**
 
-### 📋 Uso de Datos
+###  Uso de Datos
 - ✅ Los datos son públicos (Barcelona Open Data)
 - ✅ No contienen información personal sensible
 - ✅ Uso exclusivamente para fines educativos y de mejora pública
@@ -395,7 +395,7 @@ Este proyecto respeta los siguientes principios:
 
 ---
 
-## 📚 Recursos y Referencias
+##  Recursos y Referencias
 
 ### Documentación Oficial
 - [Barcelona Open Data Portal](https://opendata-ajuntament.barcelona.cat)
@@ -420,7 +420,7 @@ Este proyecto respeta los siguientes principios:
 
 ---
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 ### Problema: `MemoryError` al cargar datos
 ```python
@@ -453,24 +453,7 @@ import matplotlib.pyplot as plt
 
 ---
 
-## 📈 Progreso del Proyecto
-
-- [x] Carga y exploración de datos (2019-2025)
-- [x] Limpieza y normalización de datos
-- [x] Análisis exploratorio completo (EDA)
-- [x] Visualizaciones por dimensión
-- [x] Modelos de regresión
-- [x] Árboles de decisión
-- [x] Algoritmos de clasificación
-- [x] Clustering y análisis de similitud
-- [ ] Dashboard interactivo (Streamlit/Dash)
-- [ ] API REST para consultas dinámicas
-- [ ] Modelos LSTM para series temporales
-- [ ] Predicciones 2026-2030
-
----
-
-## 👥 Contribuciones
+##  Contribuciones
 
 ¡Las contribuciones son bienvenidas! Para mejorar este proyecto:
 
@@ -488,7 +471,7 @@ import matplotlib.pyplot as plt
 
 ---
 
-## 📄 Licencia
+##  Licencia
 
 Este proyecto está bajo licencia **MIT** para fines educativos y de investigación.
 
@@ -516,7 +499,6 @@ copies or substantial portions of the Software.
 
 - 🔗 **GitHub:** [@williamG7](https://github.com/williamG7)
 - 📧 **Email:** contacto@williamguzman.dev
-- 🏫 **Institución:** Expert Training (Formación en Data Science)
 
 ---
 
@@ -544,30 +526,17 @@ Si este análisis te ha resultado útil:
 ![Data Science](https://img.shields.io/badge/Data%20Science-ML%20%2F%20Analytics-blue)
 ![Sustainable](https://img.shields.io/badge/Sustainable-ODS%202030-brightgreen)
 
----
-
-## 📞 Contacto y Soporte
-
-¿Preguntas o sugerencias?
-
-- 📧 Abre un issue en GitHub
-- 💬 Envía un mensaje directo
-- 🤝 Contribuye con tu expertise
 
 ---
 
-**Última actualización:** Junio 2026 | **Versión:** 2.0.0
-
----
-
-### 🌍 UN Sustainable Development Goals Alignment
+###  UN Sustainable Development Goals Alignment
 
 Este proyecto contribuye a los siguientes ODS:
 
-- 🔋 **ODS 7:** Energía asequible y no contaminante
-- 🏙️ **ODS 11:** Ciudades y comunidades sostenibles
-- 🌍 **ODS 12:** Producción y consumo responsables
-- 🔬 **ODS 17:** Alianzas para lograr los objetivos
+-  **ODS 7:** Energía asequible y no contaminante
+-  **ODS 11:** Ciudades y comunidades sostenibles
+-  **ODS 12:** Producción y consumo responsables
+-  **ODS 17:** Alianzas para lograr los objetivos
 
 ---
 
